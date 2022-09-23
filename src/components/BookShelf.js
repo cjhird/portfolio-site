@@ -1,8 +1,5 @@
-const Landing = ()=> {
-  return (
-    <>
-    </>
-  )
-})
+const BookShelf = () => {
+  return <></>
+}
 
-export default Landing
+export default BookShelf
