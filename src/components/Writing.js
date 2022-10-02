@@ -1,7 +1,7 @@
 const Writing = () => {
   return (
     <>
-      <h1>Writing Page</h1>
+      <h1>Writing Page.</h1>
     </>
   )
 }
