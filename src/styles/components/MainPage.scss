@@ -1,0 +1,64 @@
+.main-outer {
+  display: flex;
+  justify-content: center;
+  background-color: violet;
+  width: 100%;
+  height: 200vh;
+}
+
+.main-cont {
+  background-color: aqua;
+  width: 60%;
+}
+
+.main-head {
+  margin-top: 2rem;
+  background-color: chartreuse;
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
+  h1 {
+    font-weight: 900;
+  }
+}
+//
+
+.main-summary {
+  p {
+    background-color: blueviolet;
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+}
+
+//
+
+.main-skills {
+  h3 {
+    font-weight: 700;
+  }
+}
+
+.proj1 {
+  display: flex;
+}
+
+.proj1-img img {
+  width: 17rem;
+  height: 17rem;
+}
+
+//
+
+.main-projects {
+  h3 {
+    font-weight: 700;
+  }
+}
+
+.main-interests {
+  h3 {
+    font-weight: 700;
+  }
+}
