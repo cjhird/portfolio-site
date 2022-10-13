@@ -1,22 +1,28 @@
 .main-outer {
   display: flex;
   justify-content: center;
-  background-color: violet;
+  // background-color: violet;
   width: 100%;
   height: 200vh;
 }
 
 .main-cont {
-  background-color: aqua;
+  // background-color: aqua;
   width: 60%;
 }
 
 .main-head {
-  margin-top: 2rem;
-  background-color: chartreuse;
+  margin-top: 5rem;
+  // background-color: chartreuse;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
   img {
     width: 10rem;
     height: 10rem;
+    margin-bottom: 1rem;
   }
   h1 {
     font-weight: 900;
@@ -26,9 +32,10 @@
 
 .main-summary {
   p {
-    background-color: blueviolet;
+    // background-color: blueviolet;
     font-weight: 600;
     font-size: 1.5rem;
+    color: rgb(91, 89, 89);
   }
 }
 
@@ -38,15 +45,97 @@
   h3 {
     font-weight: 700;
   }
+  img {
+    width: 100%;
+  }
 }
+
+//
 
 .proj1 {
   display: flex;
+  margin-bottom: 2rem;
+  .proj1-text {
+    h5 {
+      color: rgb(49, 49, 49);
+    }
+    padding-right: 2rem;
+    color: rgb(91, 89, 89);
+    text-align: justify;
+  }
 }
 
 .proj1-img img {
   width: 17rem;
   height: 17rem;
+}
+
+.proj2 {
+  display: flex;
+  margin-bottom: 2rem;
+  .proj2-text {
+    h5 {
+      color: rgb(49, 49, 49);
+    }
+    padding-left: 3rem;
+    color: rgb(91, 89, 89);
+    text-align: justify;
+  }
+}
+
+.proj2-img img {
+  width: 17rem;
+  height: 17rem;
+}
+
+.proj3 {
+  display: flex;
+  margin-bottom: 2rem;
+  .proj3-text {
+    h5 {
+      color: rgb(49, 49, 49);
+    }
+    padding-right: 2rem;
+    color: rgb(91, 89, 89);
+    text-align: justify;
+  }
+}
+
+.proj3-img img {
+  width: 17rem;
+  height: 17rem;
+}
+
+.proj4 {
+  display: flex;
+  margin-bottom: 2rem;
+  .proj4-text {
+    h5 {
+      color: rgb(49, 49, 49);
+    }
+    padding-left: 3rem;
+    color: rgb(91, 89, 89);
+    text-align: justify;
+  }
+}
+
+.proj4-img img {
+  width: 17rem;
+  height: 17rem;
+}
+
+.proj-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.proj-buttons {
+  background-color: dodgerblue;
+  border-radius: 10px;
+  border: 0.5px, solid, rgba(0, 0, 0, 0.5);
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 //

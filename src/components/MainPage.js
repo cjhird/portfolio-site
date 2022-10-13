@@ -1,6 +1,7 @@
 import profileImg from '../media/IMG_7726.png'
 import skillsImg from '../media/skills.png'
 import proj1Img from '../media/proj1.png'
+import proj2Img from '../media/proj2.png'
 
 const MainPage = () => {
   return (
@@ -13,6 +14,7 @@ const MainPage = () => {
           </div>
           <div className="main-body">
             <div className="main-summary">
+              <p>Hello 👋</p>
               <p>
                 I'm a junior software engineer currently looking for my first
                 role in industry. I have a passion for building impactful
@@ -34,12 +36,15 @@ const MainPage = () => {
                 LinkedIn.
               </p>
             </div>
+            <br />
             <hr class="solid" />
+            <br />
             <div className="main-skills">
               <h3>Technical Skills</h3>
               <img src={skillsImg} alt="skills-img"></img>
             </div>
             <hr class="solid" />
+            <br />
             <div className="main-projects">
               <h3>Projects</h3>
               <br />
@@ -51,55 +56,146 @@ const MainPage = () => {
                     original space invaders retro arcade game that includes most
                     of the original game features allowing user input to play
                     against a cpu as well as the original stylings including
-                    pixelated fonts, sounds, and characters.
+                    pixelated fonts, sounds, and characters. <br />
+                    Stack: HTML, CSS, JavaScript, Excalidraw <br />6 days | Solo
                   </p>
-                  <p>Stack: HTML, CSS, JavaScript, Excalidraw</p>
+                  <div className="proj-links">
+                    <a
+                      href="https://cjhird.github.io/space-invaders-game"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">Website</button>
+                    </a>
+                    <a
+                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">ReadMe</button>
+                    </a>
+                  </div>
                 </div>
                 <div className="proj1-img">
                   <img src={proj1Img} alt="project1-img" />
                 </div>
               </div>
               <br />
+
+              {/*  */}
+
               <div className="proj2">
-                <h5>Crypto Prices & News</h5>
-                <p>
-                  Developed a frontend app that gives real time cryptocurrency
-                  prices and news for the top 100 coins by displaying data from
-                  two third-party APIs. My contributions involved the app
-                  routing, building out key components and dynamically mapping
-                  news data on each coin.
-                </p>
-                <p>Stack: React, SASS, Axios, Bootstrap, Excalidraw</p>
+                <div className="proj2-img">
+                  <img src={proj2Img} alt="project2-img" />
+                </div>
+                <div className="proj2-text">
+                  <h5>Crypto Prices & News</h5>
+                  <p>
+                    Developed a frontend app that gives real time cryptocurrency
+                    prices and news for the top 100 coins by displaying data
+                    from two third-party APIs. My contributions involved the app
+                    routing, building out key components and dynamically mapping
+                    news data on each coin. <br />
+                    Stack: React, SASS, Axios, Bootstrap, Excalidraw <br />
+                    48hrs | Pair
+                  </p>
+                  <div className="proj-links">
+                    <a
+                      href="https://cjhird.github.io/space-invaders-game"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">Website</button>
+                    </a>
+                    <a
+                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">ReadMe</button>
+                    </a>
+                  </div>
+                </div>
               </div>
               <br />
+
+              {/*  */}
+
               <div className="proj3">
-                <h5>Animovies</h5>
-                <p>
-                  Developed a full-stack movie information and watchlist app
-                  akin to IMDB with the collaboration of two other developers.
-                  Gained valuable experience using feature branch workflow and
-                  familiarising myself with pull requests and merges.
-                </p>
-                <p>
-                  Stack: React, SASS, Bootstrap ,Axios, Node.js, Express.js,
-                  MongoDB, Mongoose, Bcrypt, JWTs
-                </p>
+                <div className="proj3-text">
+                  <h5>Animovies</h5>
+                  <p>
+                    Developed a full-stack movie information and watchlist app
+                    akin to IMDB with the collaboration of two other developers.
+                    Gained valuable experience using feature branch workflow and
+                    familiarising myself with pull requests and merges. <br />
+                    Stack: React, SASS, Bootstrap ,Axios, Node.js, Express.js,
+                    MongoDB, Mongoose, Bcrypt, JWTs <br />7 days | Group
+                  </p>
+
+                  <div className="proj-links">
+                    <a
+                      href="https://cjhird.github.io/space-invaders-game"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">Website</button>
+                    </a>
+                    <a
+                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">ReadMe</button>
+                    </a>
+                  </div>
+                </div>
+                <div className="proj3-img">
+                  <img src={proj1Img} alt="project1-img" />
+                </div>
               </div>
               <br />
+
+              {/*  */}
+
               <div className="proj4">
-                <h5>Stock Forum</h5>
-                <p>
-                  I developed a fullstack React & Django stock market forum app
-                  with a Postgres database. Gained key learnings after initially
-                  planning for an unachievable project then deciding to pivot my
-                  app and work in an agile way to achieve project goals within
-                  the given deadline.
-                </p>
-                <p>Stack: React, SASS, Axios, Python, Django, PostgreSQL</p>
+                <div className="proj4-img">
+                  <img src={proj1Img} alt="project1-img" />
+                </div>
+                <div className="proj4-text">
+                  <h5>Stock Forum</h5>
+                  <p>
+                    I developed a fullstack React & Django stock market forum
+                    app with a Postgres database. Gained key learnings after
+                    initially planning for an unachievable project then deciding
+                    to pivot my app and work in an agile way to achieve project
+                    goals within the given deadline. <br />
+                    Stack: React, SASS, Axios, Python, Django, PostgreSQL <br />
+                    5 days | Solo
+                  </p>
+
+                  <div className="proj-links">
+                    <a
+                      href="https://cjhird.github.io/space-invaders-game"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">Website</button>
+                    </a>
+                    <a
+                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <button className="proj-buttons">ReadMe</button>
+                    </a>
+                  </div>
+                </div>
               </div>
               <br />
             </div>
             <hr class="solid" />
+            <br />
             <div className="main-interests">
               <h3>Interests</h3>
             </div>
