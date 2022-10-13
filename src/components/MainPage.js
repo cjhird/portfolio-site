@@ -2,6 +2,10 @@ import profileImg from '../media/IMG_7726.png'
 import skillsImg from '../media/skills.png'
 import proj1Img from '../media/proj1.png'
 import proj2Img from '../media/proj2.png'
+import proj3Img from '../media/proj3.png'
+import proj4Img from '../media/proj4.png'
+import githubIcon from '../media/github.png'
+import webIcon from '../media/website.png'
 
 const MainPage = () => {
   return (
@@ -23,17 +27,65 @@ const MainPage = () => {
               </p>
               <p>
                 Currently, I’m working on a few side projects which you can see
-                over on my GitHub. I’m also learning TypeScript and NextJS.
+                over on{' '}
+                <a
+                  href="https://github.com/cjhird"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  my GitHub
+                </a>
+                . I’m also learning TypeScript and NextJS.
               </p>
               <p>
-                Previously, I completed a software engineering bootcamp at
-                General Assembly where I was taught how to use best practices to
-                program with Python and the MERN stack. Before this, I graduated
-                from university with an MA in Economics.
+                Previously, I completed a software engineering bootcamp at{' '}
+                <a
+                  href="https://generalassemb.ly/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  General Assembly
+                </a>{' '}
+                where I learnt how to use best practices to program with Python
+                and the MERN stack. Before this, I graduated from university
+                with an MA in Economics.
               </p>
               <p>
-                You can follow me on Twitter or send me an email. I’m also on
-                LinkedIn.
+                When I'm not coding I love to cook and try out new restaurants
+                with friends. You can also find at the poker table or watching
+                my football club, Newcastle United.
+              </p>
+              <p>
+                You can{' '}
+                <a
+                  href="https://twitter.com/cjhird"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  follow me on Twitter
+                </a>{' '}
+                or get in contact by{' '}
+                <a
+                  href="mailto:charlie.hird@googlemail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  sending me an email
+                </a>
+                . I’m also on{' '}
+                <a
+                  href="https://www.linkedin.com/in/charliehird/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-link"
+                >
+                  LinkedIn
+                </a>
+                .
               </p>
             </div>
             <br />
@@ -65,14 +117,22 @@ const MainPage = () => {
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">Website</button>
+                      <img
+                        src={webIcon}
+                        alt="website-icon"
+                        className="proj-icons"
+                      />
                     </a>
                     <a
                       href="https://github.com/cjhird/space-invaders-game#readme"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">ReadMe</button>
+                      <img
+                        src={githubIcon}
+                        alt="github-icon"
+                        className="proj-icons"
+                      />
                     </a>
                   </div>
                 </div>
@@ -101,18 +161,26 @@ const MainPage = () => {
                   </p>
                   <div className="proj-links">
                     <a
-                      href="https://cjhird.github.io/space-invaders-game"
+                      href="https://crypto-priceandnews.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">Website</button>
+                      <img
+                        src={webIcon}
+                        alt="website-icon"
+                        className="proj-icons"
+                      />
                     </a>
                     <a
-                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      href="https://github.com/cjhird/crypto-app#readme"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">ReadMe</button>
+                      <img
+                        src={githubIcon}
+                        alt="github-icon"
+                        className="proj-icons"
+                      />
                     </a>
                   </div>
                 </div>
@@ -135,23 +203,31 @@ const MainPage = () => {
 
                   <div className="proj-links">
                     <a
-                      href="https://cjhird.github.io/space-invaders-game"
+                      href="https://animovies-ga.netlify.app/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">Website</button>
+                      <img
+                        src={webIcon}
+                        alt="website-icon"
+                        className="proj-icons"
+                      />
                     </a>
                     <a
-                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      href="https://github.com/cjhird/amdb-frontend#readme"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">ReadMe</button>
+                      <img
+                        src={githubIcon}
+                        alt="github-icon"
+                        className="proj-icons"
+                      />
                     </a>
                   </div>
                 </div>
                 <div className="proj3-img">
-                  <img src={proj1Img} alt="project1-img" />
+                  <img src={proj3Img} alt="project1-img" />
                 </div>
               </div>
               <br />
@@ -160,7 +236,7 @@ const MainPage = () => {
 
               <div className="proj4">
                 <div className="proj4-img">
-                  <img src={proj1Img} alt="project1-img" />
+                  <img src={proj4Img} alt="project1-img" />
                 </div>
                 <div className="proj4-text">
                   <h5>Stock Forum</h5>
@@ -176,18 +252,26 @@ const MainPage = () => {
 
                   <div className="proj-links">
                     <a
-                      href="https://cjhird.github.io/space-invaders-game"
+                      href="https://stock-forum-app.herokuapp.com/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">Website</button>
+                      <img
+                        src={webIcon}
+                        alt="website-icon"
+                        className="proj-icons"
+                      />
                     </a>
                     <a
-                      href="https://github.com/cjhird/space-invaders-game#readme"
+                      href="https://github.com/cjhird/stock-forum-app#readme"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <button className="proj-buttons">ReadMe</button>
+                      <img
+                        src={githubIcon}
+                        alt="github-icon"
+                        className="proj-icons"
+                      />
                     </a>
                   </div>
                 </div>
@@ -196,9 +280,9 @@ const MainPage = () => {
             </div>
             <hr class="solid" />
             <br />
-            <div className="main-interests">
-              <h3>Interests</h3>
-            </div>
+          </div>
+          <div className="main-footer">
+            <p>©️ 2022 Charlie Hird - Built with speed 🏃‍♂️💨 </p>
           </div>
         </div>
       </div>
