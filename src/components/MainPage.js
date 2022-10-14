@@ -54,8 +54,8 @@ const MainPage = () => {
               </p>
               <p>
                 When I'm not coding I love to cook and try out new restaurants
-                with friends. You can also find at the poker table or watching
-                my football club, Newcastle United.
+                with friends. You can also find me at the poker table or
+                watching my football club, Newcastle United.
               </p>
               <p>
                 You can{' '}
@@ -93,7 +93,23 @@ const MainPage = () => {
             <br />
             <div className="main-skills">
               <h3>Technical Skills</h3>
-              <img src={skillsImg} alt="skills-img"></img>
+              {/* <img src={skillsImg} alt="skills-img"></img> */}
+              <br />
+              <h5>Frontend:</h5>
+              <h5 className="skill-items">
+                HTML | CSS | JavaScript | React | Boostrap | SASS
+              </h5>
+              <br />
+              <h5>Backend:</h5>
+              <h5 className="skill-items">
+                Node.JS | Express.JS | Python | Django | MongoDB | PostgreSQL
+              </h5>
+              <br />
+              <h5>Software:</h5>
+              <h5 className="skill-items">
+                Figma | Insomnia | TablePlus | Netlify | Heroku{' '}
+              </h5>
+              <br />
             </div>
             <hr class="solid" />
             <br />
@@ -105,7 +121,7 @@ const MainPage = () => {
                   <h5>Space Invaders</h5>
                   <p>
                     For my first project I developed a reproduction of the
-                    original space invaders retro arcade game that includes most
+                    original Space Invaders retro arcade game that includes most
                     of the original game features allowing user input to play
                     against a cpu as well as the original stylings including
                     pixelated fonts, sounds, and characters. <br />
@@ -197,7 +213,7 @@ const MainPage = () => {
                     akin to IMDB with the collaboration of two other developers.
                     Gained valuable experience using feature branch workflow and
                     familiarising myself with pull requests and merges. <br />
-                    Stack: React, SASS, Bootstrap ,Axios, Node.js, Express.js,
+                    Stack: React, SASS, Bootstrap, Axios, Node.js, Express.js,
                     MongoDB, Mongoose, Bcrypt, JWTs <br />7 days | Group
                   </p>
 

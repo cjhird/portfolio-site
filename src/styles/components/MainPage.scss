@@ -200,6 +200,10 @@
       padding: 0;
     }
   }
+
+  .main-skills h5 {
+    font-size: 0.7rem;
+  }
 }
 
 @media (max-width: 750px) {
@@ -212,6 +216,7 @@
       font-size: 1.3rem;
     }
   }
+
   .main-cont {
     width: 75%;
     h5 {
@@ -244,4 +249,11 @@
       font-size: 0.5rem;
     }
   }
+  .main-skills h5 {
+    font-size: 0.6rem;
+  }
+}
+
+.skill-items {
+  color: rgb(108, 108, 108);
 }
