@@ -10,7 +10,8 @@ import webIcon from '../media/website.png'
 const MainPage = () => {
   return (
     <>
-      <div className="main-outer">
+    <h5>🚧 work-in-progress 🚧</h5>
+      {/* <div className="main-outer">
         <div className="main-cont">
           <div className="main-head">
             <img src={profileImg} alt="profile-img"></img>
@@ -93,7 +94,6 @@ const MainPage = () => {
             <br />
             <div className="main-skills">
               <h3>Technical Skills</h3>
-              {/* <img src={skillsImg} alt="skills-img"></img> */}
               <br />
               <h5>Frontend:</h5>
               <h5 className="skill-items">
@@ -158,8 +158,6 @@ const MainPage = () => {
               </div>
               <br />
 
-              {/*  */}
-
               <div className="proj2">
                 <div className="proj2-img">
                   <img src={proj2Img} alt="project2-img" />
@@ -203,8 +201,6 @@ const MainPage = () => {
               </div>
               <br />
 
-              {/*  */}
-
               <div className="proj3">
                 <div className="proj3-text">
                   <h5>Animovies</h5>
@@ -247,8 +243,6 @@ const MainPage = () => {
                 </div>
               </div>
               <br />
-
-              {/*  */}
 
               <div className="proj4">
                 <div className="proj4-img">
@@ -301,7 +295,7 @@ const MainPage = () => {
             <p>©️ 2022 Charlie Hird - Built with speed 🏃‍♂️💨 </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
