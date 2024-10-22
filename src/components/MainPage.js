@@ -1,11 +1,11 @@
-import profileImg from '../media/IMG_7726.png'
+// import profileImg from '../media/IMG_7726.png'
 // import skillsImg from '../media/skills.png'
-import proj1Img from '../media/proj1.png'
-import proj2Img from '../media/proj2.png'
-import proj3Img from '../media/proj3.png'
-import proj4Img from '../media/proj4.png'
-import githubIcon from '../media/github.png'
-import webIcon from '../media/website.png'
+// import proj1Img from '../media/proj1.png'
+// import proj2Img from '../media/proj2.png'
+// import proj3Img from '../media/proj3.png'
+// import proj4Img from '../media/proj4.png'
+// import githubIcon from '../media/github.png'
+// import webIcon from '../media/website.png'
 
 const MainPage = () => {
   return (
